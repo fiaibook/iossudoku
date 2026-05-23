@@ -1,6 +1,44 @@
 # 数独游戏 - iOS版
 
+[![](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![](https://img.shields.io/badge/语言-中文-red.svg)](README_Zh.md)
+
+[![GitHub stars](https://img.shields.io/github/stars/fiaibook/iossudoku.svg?style=social&label=Stars)](https://github.com/fiaibook/iossudoku/stargazers) [![GitHub issues](https://img.shields.io/github/issues/fiaibook/iossudoku.svg?style=social&label=Issues)](https://github.com/fiaibook/iossudoku/issues) [![GitHub forks](https://img.shields.io/github/forks/fiaibook/iossudoku.svg?style=social&label=Fork)](https://github.com/fiaibook/iossudoku/network/members) [![GitHub license](https://img.shields.io/github/license/fiaibook/iossudoku.svg?style=social&label=License)](https://github.com/fiaibook/iossudoku/blob/main/LICENSE)
+
 一款为iPhone设计的原生数独游戏，使用SwiftUI开发。
+
+## 📱 应用截图
+
+| 截图1 - 游戏主界面 | 截图2 - 数字选择 |
+|:---:|:---:|
+| ![截图1](screenshots/screenshot01.png) | ![截图2](screenshots/screenshot02.png) |
+| 数独游戏主界面展示 | 选数格·行列亮·九宫亮·同数亮 |
+
+| 截图3 - 空格数字选择 | 截图4 - 填数 |
+|:---:|:---:|
+| ![截图3](screenshots/screenshot03.png) | ![截图4](screenshots/screenshot04.png) |
+| 选空格变橙色，行列宫格高亮显示 | 候选区点击合适数字，填入选中空格 |
+
+| 截图5 - 笔记模式 | 截图6 - 清除模式 |
+|:---:|:---:|
+| ![截图5](screenshots/screenshot05.png) | ![截图6](screenshots/screenshot06.png) |
+| 点击笔记按钮off变on，选空格，填笔记数字，笔记可填多个；如恢复填数模式，再次点击笔记按钮on变off  | 选中填入数字的鸽子，点击清除|
+
+
+| 截图7 - 成功完成 | 截图8 - 游戏终止 |
+|:---:|:---:|
+| ![截图7](screenshots/screenshot07.png) | ![截图8](screenshots/screenshot08.png) |
+| 成功完成界面展示 | 如果填入错误3次·生命值耗尽 |
+
+
+| 截图9 - 新游戏-游戏难度 | 截图10 - 设置页面 |
+|:---:|:---:|
+| ![截图9](screenshots/screenshot09.png) | ![截图10](screenshots/screenshot10.png) |
+| 新游戏：选择难度 | 有关·app的信息 |
+
+| 截图11 - 用户档案 | 截图12 - 排行榜 |
+|:---:|:---:|
+| ![截图11](screenshots/screenshot11.png) | ![截图12](screenshots/screenshot12.png) |
+| 用户档案展示 | 简单排行榜 |
 
 ## 功能特性
 
@@ -40,6 +78,7 @@ SudokuGame/
 │   ├── GameConfig.swift           # 配置管理（新增）
 │   ├── GameRecords.swift          # 记录和排行榜（新增）
 │   └── Info.plist                # 应用配置
+├── screenshots/                   # 应用截图
 ├── PROJECT_DOCUMENTATION.md       # 完整项目文档
 ├── PROJECT_SUMMARY.md             # 项目总结
 ├── QUICKSTART.md                  # 快速上手指南

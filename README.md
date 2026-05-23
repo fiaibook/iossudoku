@@ -1,6 +1,42 @@
 # Sudoku Game - iOS Version
 
+[![](https://img.shields.io/badge/Language-English-blue.svg)](README.md) [![](https://img.shields.io/badge/语言-中文-red.svg)](README_Zh.md)
+
+[![GitHub stars](https://img.shields.io/github/stars/fiaibook/iossudoku.svg?style=social&label=Stars)](https://github.com/fiaibook/iossudoku/stargazers) [![GitHub issues](https://img.shields.io/github/issues/fiaibook/iossudoku.svg?style=social&label=Issues)](https://github.com/fiaibook/iossudoku/issues) [![GitHub forks](https://img.shields.io/github/forks/fiaibook/iossudoku.svg?style=social&label=Fork)](https://github.com/fiaibook/iossudoku/network/members) [![GitHub license](https://img.shields.io/github/license/fiaibook/iossudoku.svg?style=social&label=License)](https://github.com/fiaibook/iossudoku/blob/main/LICENSE)
+
 A native Sudoku game designed for iPhone, developed using SwiftUI.
+
+## 📱 App Screenshots
+
+| Screenshot 1 - Main Interface | Screenshot 2 - Number Selection |
+|:---:|:---:|
+| ![Screenshot 1](screenshots/screenshot01.png) | ![Screenshot 2](screenshots/screenshot02.png) |
+| Sudoku game main interface display | Select a cell, row/column highlighted, box highlighted, same numbers highlighted |
+
+| Screenshot 3 - Empty Cell Selection | Screenshot 4 - Fill Number |
+|:---:|:---:|
+| ![Screenshot 3](screenshots/screenshot03.png) | ![Screenshot 4](screenshots/screenshot04.png) |
+| Selected a cell, row, column and box will be highlighted | Click a number from input area, to fill into the selected cell. |
+
+| Screenshot 5 - Notes Mode | Screenshot 6 - Clear Mode |
+|:---:|:---:|
+| ![Screenshot 5](screenshots/screenshot05.png) | ![Screenshot 6](screenshots/screenshot06.png) |
+| Click notes button (off→on), select empty cell, fill note numbers (multiple allowed); click notes button again (on→off) to return to normal mode | Select a filled cell, click clear button |
+
+| Screenshot 7 - Success | Screenshot 8 - Game Over |
+|:---:|:---:|
+| ![Screenshot 7](screenshots/screenshot07.png) | ![Screenshot 8](screenshots/screenshot08.png) |
+| Game completion screen display | 3 errors made, lives exhausted |
+
+| Screenshot 9 - New Game | Screenshot 10 - Settings |
+|:---:|:---:|
+| ![Screenshot 9](screenshots/screenshot09.png) | ![Screenshot 10](screenshots/screenshot10.png) |
+| New game, select difficulty level | App information |
+
+| Screenshot 11 - User Profile | Screenshot 12 - Leaderboard |
+|:---:|:---:|
+| ![Screenshot 11](screenshots/screenshot11.png) | ![Screenshot 12](screenshots/screenshot12.png) |
+
 
 ## Features
 
@@ -40,6 +76,7 @@ SudokuGame/
 │   ├── GameConfig.swift           # Configuration management (new)
 │   ├── GameRecords.swift          # Records and leaderboard (new)
 │   └── Info.plist                # App configuration
+├── screenshots/                   # App screenshots
 ├── PROJECT_DOCUMENTATION.md       # Complete project documentation
 ├── PROJECT_SUMMARY.md             # Project summary
 ├── QUICKSTART.md                  # Quick start guide

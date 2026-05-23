@@ -701,7 +701,7 @@ struct SettingsView: View {
                                 recordsManager.updateUsername(newUsername)
                             }
                         }) {
-                            Text("Save")
+                            Text("保存")
                                 .font(.subheadline)
                                 .foregroundColor(.blue)
                         }
